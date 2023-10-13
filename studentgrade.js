@@ -1,6 +1,6 @@
 let prompt = require('prompt-sync')();  // required to take user input //
 let input = prompt ('Enter student\'s marks: '); 
-let enteredMarks = parseFloat(input); //parse the user input into a number and store in the variable 'enterdMarks'
+let enteredMarks = parseFloat(input); //parse the user input into a number and store in the variable 'enteredMarks'
 
 // The function 'grades' takes 'marks' as parameter and returns a grade
 function grades (x) {
